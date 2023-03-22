@@ -7,3 +7,6 @@ con = sqlite3.connect('tabla.db')
 cur = con.cursor()
 df = pd.read_csv('datos.csv')
 df.to_sql('tabla', con, if_exists='replace')
+
+cur.execute("SELECT * FROM tabla WHERE Name='A. Remiro'")
+print(cur.fetchall())
