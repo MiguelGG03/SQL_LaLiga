@@ -6,6 +6,7 @@ Participantes: Gonzale Martínez , Miguel González
 
 ![1](https://user-images.githubusercontent.com/91721552/227001379-b19271ca-78de-465b-9ae0-0841b3d254ac.png)
 
+La funcion select selecciona
 ![2_1](https://user-images.githubusercontent.com/91721552/227001410-6184d4cc-0729-4e29-9bf5-394b462370d9.png)
 
 ![2_2](https://user-images.githubusercontent.com/91721552/227001463-c30254fa-f528-4ae1-aa03-39deb640f7dc.png)
