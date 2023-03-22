@@ -10,3 +10,7 @@ df.to_sql('tabla', con, if_exists='replace')
 
 cur.execute("SELECT * FROM tabla WHERE Name='A. Remiro'")
 print(cur.fetchall())
+
+cur.execute("UPDATE tabla SET Name='Miguel Gonzalez' WHERE Name='Odriozola'")
+cur.execute("UPDATE tabla SET Name='Salo Martinez' WHERE Name='Reguilón'")
+con.commit()
