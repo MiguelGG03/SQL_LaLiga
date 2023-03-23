@@ -56,5 +56,5 @@ cur.execute("""
             """)
 print(cur.fetchall())
 
-cur.execute("SELECT * FROM tabla WHERE 'Full games played' BETWEEN 0 AND 100")
+cur.execute("SELECT * FROM tabla WHERE FullGamesPlayed BETWEEN 30 AND 100")
 print(cur.fetchall())
