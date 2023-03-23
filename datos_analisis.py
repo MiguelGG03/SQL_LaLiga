@@ -22,37 +22,37 @@ cur.execute("INSERT INTO tabla VALUES (6, 'Athletic Club', 'Defender', 1.0, 'Yer
 con.commit()
 
 cur.execute("""
-            SELECT MIN('Games where substituted')
+            SELECT MIN(GamesWhereSubstituted)
             FROM tabla
-            WHERE 'Team' = 'Atlético Madrid'
+            WHERE Team = 'Atlético de Madrid'
             """)
 print(cur.fetchall())
 
 cur.execute("""
-            SELECT MAX('Games where substituted')
+            SELECT MAX(GamesWhereSubstituted)
             FROM tabla
-            WHERE 'Team' = 'Atlético Madrid'
+            WHERE Team = 'Atlético de Madrid'
             """)
 print(cur.fetchall())
 
 cur.execute("""
-            SELECT AVG('Games where substituted')
+            SELECT AVG(GamesWhereSubstituted)
             FROM tabla
-            WHERE 'Team' = 'Atlético Madrid'
+            WHERE Team = 'Atlético de Madrid'
             """)
 print(cur.fetchall())
 
 cur.execute("""
-            SELECT SUM('Games where substituted')
+            SELECT SUM(GamesWhereSubstituted)
             FROM tabla
-            WHERE 'Team' = 'Atlético Madrid'
+            WHERE Team = 'Atlético de Madrid'
             """)
 print(cur.fetchall())
 
 cur.execute("""
-            SELECT COUNT('Games where substituted')
+            SELECT COUNT(GamesWhereSubstituted)
             FROM tabla  
-            WHERE 'Team' = 'Atlético Madrid'
+            WHERE Team = 'Atlético de Madrid'
             """)
 print(cur.fetchall())
 
